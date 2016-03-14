@@ -5,11 +5,14 @@ This is a micro sensor module for Mysensors project: http://www.mysensors.org
 Designed to run on 2 x AA(A) batteries, depending on how often one would
 like to replace the batteries. 
 
-The sensor includes the following peripherals
+This branch replaces the 0402 passive components to 0603 package size.
 
-- Si7021 Temperature / Humidity sensor (Connected to I2C bus)
+The sensor includes the following peripherals
 - Jedec compatible eeprom/flash footprint
 - ATSHA204A for authentication
+
+This branch removed the following
+- Si7021 Temperature / Humidity sensor (Connected to I2C bus)
 - LED
 
 The following pins are available on headers:
