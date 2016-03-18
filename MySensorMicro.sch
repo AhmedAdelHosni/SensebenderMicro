@@ -8398,7 +8398,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R2" gate="G$1" x="76.2" y="109.22" rot="R90"/>
 <instance part="SUPPLY8" gate="1" x="78.74" y="121.92"/>
 <instance part="JP2" gate="G$1" x="213.36" y="53.34" rot="R180"/>
-<instance part="C5" gate="G$1" x="22.86" y="85.09" rot="R270"/>
+<instance part="C5" gate="G$1" x="22.86" y="85.09"/>
 <instance part="JP4" gate="G$1" x="215.9" y="22.86" rot="R180"/>
 <instance part="JP5" gate="G$1" x="215.9" y="104.14" rot="R180"/>
 <instance part="R3" gate="G$1" x="12.7" y="83.82" rot="R90"/>
@@ -8730,7 +8730,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="5.08" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC1" gate="1" pin="PC6(/RESET/PCINT14)"/>
 <wire x1="22.86" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="85.09" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="80.01" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
 <junction x="22.86" y="78.74"/>
 <wire x1="5.08" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
@@ -8880,18 +8880,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="1" pin="PB6(XTAL1/TOSC1/PCINT6)"/>
-<wire x1="25.4" y1="64.77" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="IC1" gate="1" pin="PB7(XTAL2/TOSC2/PCINT7)"/>
-<wire x1="27.94" y1="58.42" x2="25.4" y2="57.15" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DTR" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="6"/>
@@ -8900,7 +8888,7 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="85.09" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="87.63" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="22.86" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
