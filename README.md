@@ -1,5 +1,7 @@
 # Sensebender Micro
 
+UPDATE: The board was tested during month September 2017 and it works fine as a BETA testing.
+
 This is a micro sensor module for Mysensors project: http://www.mysensors.org
 
 Designed to run on 2 x AA(A) batteries, depending on how often one would
