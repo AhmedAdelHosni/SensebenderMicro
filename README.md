@@ -1,5 +1,9 @@
 # Sensebender Micro
 
+==============================================================================================
+UPDATE: The board was tested during month September 2017 and it works fine as a BETA testing.
+==============================================================================================
+
 This is a micro sensor module for Mysensors project: http://www.mysensors.org
 
 Designed to run on 2 x AA(A) batteries, depending on how often one would
@@ -10,7 +14,6 @@ The sensor includes the following peripherals
 - Si7021 Temperature / Humidity sensor (Connected to I2C bus)
 - Jedec compatible eeprom/flash footprint
 - ATSHA204A for authentication
-- LED
 
 The following pins are available on headers:
 
